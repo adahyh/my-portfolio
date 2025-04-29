@@ -10,7 +10,7 @@ import './App.css';  // Make sure this line is there to import your CSS file
 
 const App = () => {
   return (
-    <Router>
+    <Router basename={process.env.NODE_ENV === "production" ? "/my-portfolio" : "/"}>
       <Header />
       <Routes>
         <Route path="/" element={<Home />} />
