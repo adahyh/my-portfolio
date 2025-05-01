@@ -4,14 +4,12 @@ import React from 'react';
 const Header = () => {
   return (
     <header>
-      <h1>My Portfolio</h1>
       <nav>
-        <ul>
-          {/* <li><Link to="/">Home</Link></li> */}
-          {/* <li><Link to="/about">About</Link></li> */}
-
-        </ul>
+        <span class="icon">ଘ(੭*ˊᵕˋ)੭* ̀ˋ</span> <span class="nav-links">about</span> <span class="nav-links" id="resume-link"><a href="https://docs.google.com/document/d/1lbolk_PDlZbAYb96d1LfenRvfMkt32094IklY__iO1A/edit?usp=sharing">resume</a></span>
       </nav>
+      
+  
+
     </header>
   );
 };

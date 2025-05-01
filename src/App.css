@@ -1,10 +1,42 @@
+/* .gradient-bg{
+  color: orange;
+} */
+
 body {
   font-family: Arial, sans-serif;
   background-color: #ffff;
-  margin: 2rem;
+  /* margin: 2rem; */
   padding: 0;
 }
 
+header{
+  padding:  2rem;
+  background-image: radial-gradient(circle, #EEAECA 0%, #F2FFD9 100%);
+ }
+
+.icon {
+  float:left;
+}
+.nav-links {
+  float:right;
+  padding: 1rem;
+}
+
+
+
+.banner {
+  /* background: pink; */
+  background-image: radial-gradient(circle, #EEAECA 0%, #F2FFD9 100%);
+  color: #EB5EA4;
+  font-size: 2rem;
+  padding:2rem;
+}
+
+.margin-text {
+  margin: 2rem;
+}
+
+/* project card  */
 .project-card {
   background: white;
   border: 1px solid #ddd;
