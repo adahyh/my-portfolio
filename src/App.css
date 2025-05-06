@@ -1,12 +1,13 @@
-/* .gradient-bg{
-  color: orange;
-} */
-
 body {
   font-family: Arial, sans-serif;
   background-color: #ffff;
   /* margin: 2rem; */
   padding: 0;
+}
+
+a {
+  text-decoration: none;
+  color: #EB5EA4;
 }
 
 header{
@@ -25,7 +26,6 @@ header{
 
 
 .banner {
-  /* background: pink; */
   background-image: radial-gradient(circle, #EEAECA 0%, #F2FFD9 100%);
   color: #EB5EA4;
   font-size: 2rem;
@@ -36,6 +36,7 @@ header{
   margin: 2rem;
 }
 
+
 /* project card  */
 .project-card {
   background: white;
@@ -44,6 +45,29 @@ header{
   overflow: hidden;
   width: 100%;
   /* box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); */
+}
+
+
+.project-card-image-container {
+  width: 100%; 
+  height: 400px; 
+  overflow: hidden; 
+  position: relative; 
+}
+
+.project-card-image {
+  width: 100%; 
+  height: 100%; 
+  object-fit: cover; 
+  object-position: center; 
+}
+
+/* Responsive image */
+@media (max-width: 768px) {
+  /* For tablets and below */
+  .project-card-image-container {
+    height: 150px; 
+  }
 }
 
 .project-image {
@@ -60,4 +84,23 @@ header{
   flex-direction: column;
   gap: 2rem;
   /* padding: 1rem; */
+}
+
+.project-page-image-container {
+  width: 70%;
+  height: auto; 
+  overflow: hidden; 
+  display:flex; 
+  justify-content: center;
+  align-items:center;
+  margin: 0 auto;
+  border-radius: 12px;
+}
+
+
+.project-page-image {
+  width: 100%; 
+  height: 100%; 
+  object-fit: cover; 
+  object-position: center; 
 }

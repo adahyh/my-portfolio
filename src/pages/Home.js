@@ -1,18 +1,23 @@
 // src/pages/Home.js
 import React from 'react';
 import ProjectCard from '../components/ProjectCard';
+import p1Image from '../assets/images/p1header.png';
+import p2Image from '../assets/images/p2header.png';
+
 
 
 const projects = [
   {
-    name: 'Project 1',
-    description: 'My first project.',
+    name: 'Scaling Screens',
+    description: 'Working with different sized screens for related interfaces',
     link: '/project1',
+    image: p1Image
   },
   {
-    name: 'Project 2',
-    description: 'My second project.',
+    name: 'All Design is Redesign',
+    description: 'Redesigning Spotify playlist features and creating an interactive quiz',
     link: '/project2',
+    image: p2Image
   },
 ];
 
